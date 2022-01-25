@@ -1,0 +1,11 @@
+$colours: (
+  background-colour: #0f1d36,
+  primary-colour: #acc0ff,
+  secondary-colour: #4abca9,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
+
+$primary-font: "Rajdhani", sans-serif;

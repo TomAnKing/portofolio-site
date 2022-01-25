@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background-color: #0f1d36;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.navbar {
+  background-color: #0f1d36 !important;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  min-height: 90px;
+}
+
+.navbar-brand {
+  color: #4abca9 !important;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #acc0ff !important;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4abca9 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #4abca9 !important;
+  font-weight: 500;
+}
+
+h1 {
+  color: #acc0ff;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-bottom: 0;
+  margin-top: 200px;
+}
+
+h2 {
+  font-weight: normal;
+  color: #4abca9;
+  font-size: 60px;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #acc0ff;
+  font-weight: normal;
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.aboutContent {
+  width: 80%;
+  margin: auto;
+  max-width: 1500px;
+  margin-top: 200px;
+}
+
+@media (max-width: 992px) {
+  .aboutContent {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+img {
+  height: 300px;
+  width: auto;
+  float: left;
+}
+
+@media (max-width: 992px) {
+  img {
+    float: none;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 60px;
+  }
+}
+
+.aboutText {
+  margin-left: 390px;
+}
+
+@media (max-width: 992px) {
+  .aboutText {
+    margin: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+}
+
+.aboutHeader {
+  margin: 0;
+  color: #4abca9;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .aboutHeader {
+    text-align: center;
+  }
+}
+
+.aboutBody {
+  color: #acc0ff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

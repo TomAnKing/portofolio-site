@@ -1,0 +1,26 @@
+h1 {
+  color: getColour(primary-colour);
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-bottom: 0;
+  margin-top: 200px;
+}
+
+h2 {
+  font-weight: normal;
+  color: getColour(secondary-colour);
+  font-size: 60px;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: getColour(primary-colour);
+  font-weight: normal;
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
