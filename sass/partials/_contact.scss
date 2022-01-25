@@ -1,0 +1,78 @@
+.contactHeader {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 0;
+  font-weight: 500;
+  color: getColour(secondary-colour);
+  @media (max-width: 992px) {
+    font-weight: normal;
+  }
+}
+
+.contactInfo p {
+  color: getColour(primary-colour);
+  text-align: center;
+  font-size: 32px;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  @media (max-width: 992px) {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+.email {
+  display: inline-flex;
+  gap: 10px;
+  @media (max-width: 992px) {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.phone {
+  display: inline-flex;
+  gap: 10px;
+  margin-left: 45px;
+  @media (max-width: 992px) {
+    width: 100%;
+    margin-left: 0;
+    text-align: start;
+  }
+}
+
+.github {
+  display: inline-flex;
+  gap: 10px;
+  @media (max-width: 992px) {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.contactIcons {
+  color: getColour(secondary-colour);
+  font-size: 32px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+  @media (max-width: 992px) {
+    font-size: 20px;
+  }
+
+  & p {
+    color: getColour(primary-colour);
+    font-size: 32px;
+    margin-top: -8px;
+    @media (max-width: 992px) {
+      font-size: 20px;
+      width: 80%;
+      margin-top: -5px;
+    }
+  }
+}

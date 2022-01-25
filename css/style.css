@@ -42,6 +42,13 @@ h1 {
   margin-top: 200px;
 }
 
+@media (max-width: 992px) {
+  h1 {
+    margin-left: 10%;
+    font-size: 18px;
+  }
+}
+
 h2 {
   font-weight: normal;
   color: #4abca9;
@@ -52,6 +59,14 @@ h2 {
   margin-bottom: 0;
 }
 
+@media (max-width: 992px) {
+  h2 {
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 40px;
+  }
+}
+
 h3 {
   color: #acc0ff;
   font-weight: normal;
@@ -60,11 +75,19 @@ h3 {
   margin-top: 10px;
 }
 
+@media (max-width: 992px) {
+  h3 {
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+}
+
 .aboutContent {
   width: 80%;
   margin: auto;
   max-width: 1500px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 @media (max-width: 992px) {
@@ -113,6 +136,8 @@ img {
 @media (max-width: 992px) {
   .aboutHeader {
     text-align: center;
+    font-weight: normal;
+    font-size: 40px;
   }
 }
 
@@ -120,5 +145,126 @@ img {
   color: #acc0ff;
   font-size: 30px;
   margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .aboutBody {
+    font-size: 20px;
+  }
+}
+
+.contactHeader {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 0;
+  font-weight: 500;
+  color: #4abca9;
+}
+
+@media (max-width: 992px) {
+  .contactHeader {
+    font-weight: normal;
+  }
+}
+
+.contactInfo p {
+  color: #acc0ff;
+  text-align: center;
+  font-size: 32px;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .contactInfo p {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+.email {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+}
+
+@media (max-width: 992px) {
+  .email {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.phone {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+  margin-left: 45px;
+}
+
+@media (max-width: 992px) {
+  .phone {
+    width: 100%;
+    margin-left: 0;
+    text-align: start;
+  }
+}
+
+.github {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+}
+
+@media (max-width: 992px) {
+  .github {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.contactIcons {
+  color: #4abca9;
+  font-size: 32px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  .contactIcons {
+    font-size: 20px;
+  }
+}
+
+.contactIcons p {
+  color: #acc0ff;
+  font-size: 32px;
+  margin-top: -8px;
+}
+
+@media (max-width: 992px) {
+  .contactIcons p {
+    font-size: 20px;
+    width: 80%;
+    margin-top: -5px;
+  }
+}
+
+.projectsHeader {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 0;
+  font-weight: 500;
+  color: #4abca9;
 }
 /*# sourceMappingURL=style.css.map */
